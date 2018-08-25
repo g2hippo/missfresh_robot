@@ -2,7 +2,7 @@
 
 # 用来抓取每日优鲜指定sku的近期销量
 
-fpath = '/var/www/html/missfresh'
+fpath = '/var/www/html/missfresh/'
 sku_list = ['p-hbqxspdt-4g', 'p-tjspt-2g']
 address_code = '110106'
 detail_url = 'https://as-vip.missfresh.cn/v3/product/'

@@ -29,11 +29,10 @@ for sku in sku_list:
    r = requests.get(detail_url + sku, headers=headers)
    if r.status_code == 200:
        if 'msg' in r.json():
-           #print(sku, r.json()['msg'])
+           result.append([date.today() , sku, '-', '-', r.json()['msg']])
            pass
        else:
            result.append([date.today() , sku, r.json()['name'], int(r.json()['sales_volume'])])
-
 #print (result)
 
 try:

@@ -2,6 +2,7 @@
 
 # 用来抓取每日优鲜指定sku的近期销量
 
+fpath = '/var/www/html/missfresh'
 sku_list = ['p-hbqxspdt-4g', 'p-tjspt-2g']
 address_code = '110106'
 detail_url = 'https://as-vip.missfresh.cn/v3/product/'
@@ -35,7 +36,7 @@ for sku in sku_list:
 print (result)
 
 try:
-    wb = openpyxl.load_workbook('data.xlsx')
+    wb = openpyxl.load_workbook(fpath + 'data.xlsx')
     ws = wb.active
 except FileNotFoundError:
     wb = openpyxl.Workbook()
@@ -46,5 +47,5 @@ except FileNotFoundError:
 for row in result:
     ws.append(row)
     
-wb.save('data.xlsx')
+wb.save(fpath + 'data.xlsx')
         

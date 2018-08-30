@@ -5,10 +5,11 @@
 fpath = '/var/www/html/missfresh/'
 sku_list = ['p-hbqxspdt-4g', 'p-tjspt-2g', 'p-hbspdt-2g', 'p-hbnmxss-1h', 'p-tjnmxsz-1h']
 address_code = '110106'
+station_code = 'MRYX|mryx_jgmpx'
 detail_url = 'https://as-vip.missfresh.cn/v3/product/'
 headers = {
     "version":"4.5.1.0.2",
-    "x-region":'{"address_code":'+ address_code +'}',
+    "x-region":'{"station_code":"'+ station_code +'","address_code":'+ address_code +'}',
     "user-agent":"Mozilla/5.0 (Linux, Android 6.0, Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Mobile Safari/537.36",
     "accept-language":"zh-CN,zh,q=0.9,en,q=0.8",
     "accept":"application/json, text/plain, */*",

@@ -3,7 +3,12 @@
 # 用来抓取每日优鲜指定sku的近期销量
 
 fpath = '/var/www/html/missfresh/'
-sku_list = ['p-hbqxspdt-4g', 'p-tjspt-2g', 'p-hbspdt-2g', 'p-hbnmxss-1h', 'p-tjnmxsz-1h', 'p-hbjhxpg-1d', "p-hbngl-5g", "p-tjngl-5g", "p-hbcts-2g", "p-tjyncts-2g"]
+sku_list = ['p-hbqxspdt-4g', 'p-tjspt-2g', 'p-hbspdt-2g',
+            'p-hbnmxss-1h', 'p-tjnmxsz-1h',
+            'p-hbjhxpg-1d',
+            "p-hbngl-5g", "p-tjngl-5g",
+            "p-hbcts-2g", "p-tjyncts-2g"
+            ]
 address_code = '110106'
 station_code = 'MRYX|mryx_jgmpx'
 detail_url = 'https://as-vip.missfresh.cn/v3/product/'
@@ -22,7 +27,7 @@ headers = {
 
 import requests
 import openpyxl
-from  datetime import date
+from datetime import date
 from time import sleep
 from random import random
 

@@ -33,7 +33,7 @@ for sku in sku_list:
            result.append([date.today() , sku, '-', '-', r.json()['msg']])
            pass
        else:
-           result.append([date.today() , sku, r.json()['name'], int(r.json()['sales_volume'])])
+           result.append([date.today() , sku, r.json()['name'], int(r.json()['sales_volume']), int(r.json()['vip_price_pro']['price_down']['price'])/100])
 #print (result)
 
 try:
@@ -42,7 +42,7 @@ try:
 except FileNotFoundError:
     wb = openpyxl.Workbook()
     ws = wb.active
-    ws.append(['日期','sku','品名','销量'])
+    ws.append(['日期','sku','品名','销量',"价格"])
 
 
 for row in result:

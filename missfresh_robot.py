@@ -23,6 +23,8 @@ headers = {
 import requests
 import openpyxl
 from  datetime import date
+from time import sleep
+from random import random
 
 result = []
 
@@ -34,6 +36,7 @@ for sku in sku_list:
            pass
        else:
            result.append([date.today() , sku, r.json()['name'], int(r.json()['sales_volume']), int(r.json()['vip_price_pro']['price_down']['price'])/100])
+   sleep( random() * 5 )
 #print (result)
 
 try:

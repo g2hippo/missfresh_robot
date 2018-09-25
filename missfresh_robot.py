@@ -9,7 +9,8 @@ sku_list = ['p-hbqxspdt-4g', 'p-tjspt-2g', 'p-hbspdt-2g',
             "p-hbngl-5g", "p-tjngl-5g",
             "p-hbcts-2g", "p-tjyncts-2g",
             "p-hbjfpt-1h", "p-tjjfpt-1h",
-            "p-hbxjkelxl-5g"
+            "p-hbxjkelxl-5g",
+            "p-hbdldz1j-1h-new", "p-tjdldz1j-2h"
             ]
 address_code = '110106'
 station_code = 'MRYX|mryx_jgmpx'

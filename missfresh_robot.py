@@ -3,27 +3,22 @@
 # 用来抓取每日优鲜指定sku的近期销量
 
 fpath = '/var/www/html/missfresh/'
-sku_list = ['p-hbqxspdt-4g', 'p-tjspt-2g', 'p-hbspdt-2g',
-            'p-hbnmxss-1h', 'p-tjnmxsz-1h',
-            'p-hbjhxpg-1d',
-            "p-hbngl-5g", "p-tjngl-5g",
-            "p-hbcts-2g", "p-tjyncts-2g",
-            "p-hbjfpt-1h", "p-tjjfpt-1h",
+sku_list = [
+            'p-hbnmxss-1h', 
+            "p-hbngl-5g", 
+            "p-hbjfpt-1h",
             "p-hbxjkelxl-5g", "p-hbkel-10g",
-            "p-hbdldz1j-1h-new", "p-tjdldz1j-2h",
             "p-HBlbxg-2g",
             "p-hbhhdzx-1h",
-            "p-hbfptxs-2g",
-            "p-HBzhdz-1h",
-            "p-hbytxfq-500g-new", "p-hbytxfq-500g",
             "p-sghg-70g-100g",
             "p-hbqylx-2g",
             "p-HBdjhmj-1h",
             "p-hbay38-2g",
             "p-hbjqhmt-2g",
-            "p-sghg-70g-100g",
             "p-hbytxfq-500g", "p-hbytxfq-500g-new",
-            "p-hbxjxafpg-1h"
+            "p-hbxjxafpg-1h",
+            "p-hbgnqc11-2g",
+            "p-hbdzlclz-1h"
             ]
 address_code = '110106'
 station_code = 'MRYX|mryx_jgmpx'

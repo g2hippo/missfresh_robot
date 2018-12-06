@@ -57,7 +57,7 @@ for sku in sku_list:
 #print (result)
 
 try:
-    wb = openpyxl.load_workbook(fpath + 'data.xlsx')
+    wb = openpyxl.load_workbook(fpath + 'sale_volume.xlsx')
     ws = wb.active
 except FileNotFoundError:
     wb = openpyxl.Workbook()
@@ -68,5 +68,5 @@ except FileNotFoundError:
 for row in result:
     ws.append(row)
     
-wb.save(fpath + 'data.xlsx')
+wb.save(fpath + 'sale_volume.xlsx')
         

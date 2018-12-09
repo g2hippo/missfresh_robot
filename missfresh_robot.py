@@ -11,12 +11,9 @@ sku_list = [
             "p-HBlbxg-2g",
             "p-hbhhdzx-1h",
             "p-sghg-70g-100g",
-            "p-hbqylx-2g",
             "p-HBdjhmj-1h",
-            "p-hbay38-2g",
             "p-hbjqhmt-2g",
             "p-hbytxfq-500g", "p-hbytxfq-500g-new",
-            "p-hbxjxafpg-1h",
             "p-hbgnqc11-2g",
             "p-hbdzlclz-1h",
             "p-hbzjcm-1h",
@@ -70,4 +67,4 @@ for row in result:
     ws.append(row)
     
 wb.save(fpath + 'sale_volume.xlsx')
-        
+

@@ -4,23 +4,15 @@
 
 fpath = '/var/www/html/missfresh/'
 sku_list = [
-            'p-hbnmxss-1h', 
-            "p-hbngl-5g", 
-            "p-hbjfpt-1h",
             "p-hbxjkelxl-5g", "p-hbkel-10g",
-            "p-HBlbxg-2g",
-            "p-hbhhdzx-1h",
             "p-sghg-70g-100g",
             "p-HBdjhmj-1h",
-            "p-hbjqhmt-2g",
-            "p-hbytxfq-500g", "p-hbytxfq-500g-new",
+            "p-hbytxfq-500g",
             "p-hbgnqc11-2g",
-            "p-hbdzlclz-1h",
             "p-hbzjcm-1h",
             "p-hdsghycm-1h", "p-HNhycmsd-1h",
             "p-hb-hycm350g1h",
             "p-hb-ynppg-250gyh"
-
             ]
 address_code = '110106'
 station_code = 'MRYX|mryx_jgmpx'

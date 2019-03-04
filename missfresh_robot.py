@@ -4,9 +4,8 @@
 
 fpath = '/var/www/html/missfresh/'
 sku_list = [
-            "p-hbxjkelxl-5g", "p-hbkel-10g",
+            "p-hbxjkelxl-5g",
             "p-sghg-70g-100g",
-            "p-HBdjhmj-1h",
             "p-hbytxfq-500g",
             "p-hbgnqc11-2g",
             "p-hbzjcm-1h",

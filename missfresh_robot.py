@@ -15,7 +15,10 @@ sku_list = [
             "p-hdstj-1j",
             "p-hbqxsng-yzl-1h",
             "p-hblbtg-2g",
-            "p-hb-hyt4lz"
+            "p-hb-hyt4lz",
+            "p-HBjttg-2g",
+            "p-hbscpjchg2-500g",
+            "p-hbddxsz-1h"
             ]
 address_code = '110106'
 station_code = 'MRYX|mryx_jgmpx'
@@ -65,4 +68,3 @@ for row in result:
     ws.append(row)
     
 wb.save(fpath + 'sale_volume.xlsx')
-
